@@ -10,7 +10,8 @@ import com.askattest.backendtest.model.TakerSurveyProgress;
 import com.askattest.backendtest.service.TakerSurveyProgressService;
 //import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
-public class InMemoryTakerSurveyProgressService implements TakerSurveyProgressService {
+public class
+InMemoryTakerSurveyProgressService implements TakerSurveyProgressService {
 
   private final QuestionDao questionDao;
   private final SurveyDao surveyDao;
