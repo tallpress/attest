@@ -10,11 +10,11 @@ import org.junit.Test;
 
 public class InMemorySurveyDaoTest {
 
-  private InMemorySurveyDao inMemorySurveyDao;
+  private com.askattest.backendtest.dao.inmemory.InMemorySurveyDao inMemorySurveyDao;
 
   @Before
   public void setUp() throws Exception {
-    inMemorySurveyDao = new InMemorySurveyDao();
+    inMemorySurveyDao = new com.askattest.backendtest.dao.inmemory.InMemorySurveyDao();
   }
 
   @Test

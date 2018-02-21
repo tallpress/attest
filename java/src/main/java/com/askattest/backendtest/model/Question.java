@@ -8,11 +8,11 @@ public class Question {
   private final int surveyId;
   private final String title;
   private final List<String> choices;
-  private final Routes routes;
+  private final com.askattest.backendtest.model.Routes routes;
   private final int payingAmountPence;
 
   public Question(
-      int id, int surveyId, String title, List<String> choices, Routes routes, final int payingAmountPence) {
+          int id, int surveyId, String title, List<String> choices, com.askattest.backendtest.model.Routes routes, final int payingAmountPence) {
     this.id = id;
     this.surveyId = surveyId;
     this.title = title;
@@ -37,7 +37,7 @@ public class Question {
     return choices;
   }
 
-  public Optional<Routes> getRoutes() {
+  public Optional<com.askattest.backendtest.model.Routes> getRoutes() {
     return Optional.ofNullable(routes);
   }
 

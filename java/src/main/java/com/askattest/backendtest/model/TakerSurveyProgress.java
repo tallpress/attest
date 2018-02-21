@@ -10,7 +10,7 @@ public interface TakerSurveyProgress {
    * @return An {@code Optional} containing the question if there is one, or {@code Optional.empty()} when there are no
    *     more questions that the taker can respond to in this survey
    */
-  Optional<Question> getNextQuestion();
+  Optional<com.askattest.backendtest.model.Question> getNextQuestion();
 
   /**
    * Get the number of questions that the taker has answered so far as part of this survey.
