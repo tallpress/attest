@@ -16,11 +16,13 @@ public class InMemoryTakerQuestionAnswerDao implements TakerQuestionAnswerDao {
           new TakerQuestionAnswer(300, 102, 0),
           new TakerQuestionAnswer(300, 105, 1),
           new TakerQuestionAnswer(300, 109, 3),
+
           new TakerQuestionAnswer(301, 100, 1),
           new TakerQuestionAnswer(301, 103, 3),
           new TakerQuestionAnswer(301, 104, 2),
           new TakerQuestionAnswer(301, 106, 0),
           new TakerQuestionAnswer(301, 109, 2),
+          
           new TakerQuestionAnswer(302, 100, 1),
           new TakerQuestionAnswer(302, 103, 3),
           new TakerQuestionAnswer(302, 104, 2),

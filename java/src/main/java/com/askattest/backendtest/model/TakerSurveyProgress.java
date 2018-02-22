@@ -5,8 +5,8 @@ import java.util.Optional;
 public interface TakerSurveyProgress {
 
   /**
-   * Get the next question for this survey that should be presented to the taker.
-   *
+          * Get the next question for this survey that should be presented to the taker.
+          *
    * @return An {@code Optional} containing the question if there is one, or {@code Optional.empty()} when there are no
    *     more questions that the taker can respond to in this survey
    */
